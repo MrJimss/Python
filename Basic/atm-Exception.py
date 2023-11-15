@@ -1,3 +1,5 @@
+#small program that tests a function that adds an exception to the code
+
 def withdraw(amount):
    print('$'+str(amount) + " withdrawn!")
    

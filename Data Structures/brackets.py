@@ -8,6 +8,7 @@ def bracket(str):
                stack.append(i)
                print(stack)
           elif i in closing:
+               
                if(len(stack) == 0):
                     print("Unbalanced")
                else:
@@ -19,4 +20,4 @@ def bracket(str):
      if(len(stack) == 0):
          print("Balanced")
 
-bracket("({}{()})")
+bracket("({}{()]{}})")
