@@ -1,6 +1,6 @@
 import re
 numlist = list()
-fhand = open('regex_sum_1761772.txt')
+fhand = open('regex_Sum.txt')
 
 for line in fhand:
      line = line.rstrip()
