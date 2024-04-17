@@ -1,11 +1,16 @@
+<<<<<<< HEAD
 import urllib.request as urlr
 import urllib.parse as urlp 
 import xml.etree.ElementTree as ET
+=======
+import urllib.request, urllib.parse, urllib.error
+>>>>>>> origin/HEAD
 import ssl
 
 # Ignore SSL certificate errors
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
+<<<<<<< HEAD
 ctx.verify_mode = ssl.CERT_NONE
 
 url =input('Enter location: ')
@@ -25,3 +30,6 @@ for item in counts:
     sum=sum+count
     
 print(f"Sum:{sum}")
+=======
+ctx.verify_mode = ssl.CERT_NONE
+>>>>>>> origin/HEAD
