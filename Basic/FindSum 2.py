@@ -10,5 +10,6 @@ for line in fhand:
              numlist.append(int(i))
 print(sum(numlist))
 
+
      
      
